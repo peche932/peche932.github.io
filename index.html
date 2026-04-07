@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>peche932</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: "M PLUS 1p", "Helvetica Neue", Arial, sans-serif;
+      background: #f8f9fa;
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card {
+      background: #fff;
+      max-width: 520px;
+      width: 90%;
+      padding: 3rem 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    .field {
+      margin-bottom: 1.2rem;
+    }
+
+    .field:last-child {
+      margin-bottom: 0;
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 1.5rem;
+    }
+
+    .label {
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: #6c63ff;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.3rem;
+    }
+
+    .value {
+      font-size: 1.1rem;
+      font-weight: 300;
+      line-height: 1.6;
+    }
+
+    .value--bio {
+      font-size: 0.95rem;
+      font-weight: 300;
+      color: #555;
+      line-height: 1.8;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        align-items: flex-start;
+        padding: 2rem 0;
+      }
+
+      .card {
+        padding: 2rem 1.5rem;
+      }
+
+      .avatar {
+        width: 96px;
+        height: 96px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <img src="peche932.png" alt="yoshii" class="avatar">
+    <div class="field">
+      <div class="label">名前</div>
+      <div class="value">yoshii</div>
+    </div>
+    <div class="field">
+      <div class="label">職業</div>
+      <div class="value">ソフトウェアエンジニア</div>
+    </div>
+    <div class="field">
+      <div class="label">略歴</div>
+      <div class="value value--bio">
+        芝浦工業大学 情報工学科卒業。2007年よりNECグループにて組み込みソフトウェア開発に従事。2013年よりWeb系に転身し、規模や言語を問わず PG/SE/PM として多くの案件に携わる。2026年よりフリーで活動中。
+        <br /><br />
+        古くはBootable Linux開発から近年はインフラからフロントエンド、IoTまで色々やるが、好きなのはUXを考えることと電子工作っぽいもの。
+        <br /><br />
+        あと想像以上にギターを弾きます。
+      </div>
+    </div>
+  </main>
+</body>
+</html>
